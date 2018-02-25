@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RESUME - UDAY KARKERA</title>
+    <!-- Meta -->
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Uday Karkera at U Coder Karkera">
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+<style>
+/*   
+ * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Version: 1.0
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+/* styles.css */
+/* ======= Base ======= */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #545E6C;
+  background: #f5f5f5;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+a {
+  color: #2d7788;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a454f;
+}
+a:focus {
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+}
+.wrapper {
+  background: #42A8C0;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sidebar-wrapper {
+  background: #42A8C0;
+  position: absolute;
+  right: 0;
+  width: 240px;
+  height: 100%;
+  min-height: 800px;
+  color: #fff;
+}
+.sidebar-wrapper a {
+  color: #fff;
+}
+.sidebar-wrapper .profile-container {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+.sidebar-wrapper .name {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .tagline {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sidebar-wrapper .profile {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list .fa {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .contact-list .email .fa {
+  font-size: 14px;
+}
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .degree {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.sidebar-wrapper .education-container .item {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .education-container .item:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .education-container .meta {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.sidebar-wrapper .education-container .time {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.sidebar-wrapper .languages-container .lang-desc {
+  color: rgba(255, 255, 255, 0.6);
+}
+.sidebar-wrapper .languages-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .languages-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .languages-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .interests-list li:last-child {
+  margin-bottom: 0;
+}
+.main-wrapper {
+  background: #fff;
+  padding: 60px 30px;
+  padding-right: 300px;
+}
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.main-wrapper .section-title .fa {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #2d7788;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+.main-wrapper .section {
+  margin-bottom: 60px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 30px;
+}
+.main-wrapper .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.main-wrapper .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+.main-wrapper .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+.main-wrapper .project-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .projects-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 15px;
+}
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skillset .level-bar {
+  height: 12px;
+  background: #f5f5f5;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+  background: #7bc2d3;
+}
+.footer {
+  padding: 30px;
+  padding-top: 60px;
+}
+.footer .copyright {
+  line-height: 1.6;
+  color: #545E6C;
+  font-size: 13px;
+}
+.footer .fa-heart {
+  color: #fb866a;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 30px;
+  }
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 65%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+</style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- <H1>UDAY KARKERA</H1> -->
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile img-circle" height="100px" width="100px" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAeaAAAAJGY5ZjRjZGFmLWJmZDgtNDZiZC1iMTVlLWUyMDc3MzRhYTAzNg.jpg" alt="">
+                <h4>Uday Karkera</h4>
+                <h3 class="tagline">Full Stack Developer</h3>
+                <h4>4 Years Exp</h4>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: uday.karkera@gmail.com">uday.karkera@gmail.com</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:09819131365">09819131365</a> (Ban)</li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:09821592988">09821592988</a> (Mum)</li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="" target="_blank">uday.karkera.com</a></li>
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/udaykarkera" target="_blank">linkedin.com/in/udaykarkera</a></li>
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/udaykarkera" target="_blank">github.com/udaykarkera</a></li>
+                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/karkera_uday" target="_blank">@karkera_uday</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">BSc in Information Technology with 53%</h4>
+                    <h5 class="meta">Mumbai University</h5>
+                    <div class="time">2010 - 2013</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">Aircraft Maintenance Engineering with 77%</h4>
+                    <h5 class="meta">Bombay Flying Club, Juhu</h5>
+                    <div class="time">2006 - 2009</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">H.S.C. Examination with 66%</h4>
+                    <h5 class="meta">Gokuldham High School &amp; Jr. College, Goregaon</h5>
+                    <div class="time">2004 - 2006</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">S.S.C. Examination with 58%</h4>
+                    <h5 class="meta">Yashodham High School, Goregaon</h5>
+                    <div class="time">2004</div>
+                </div>
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>English <span class="lang-desc">(Professional)</span></li>
+                    <li>Hindi <span class="lang-desc">(Professional)</span></li>
+                    <li>Marathi <span class="lang-desc">(Professional)</span></li>
+                    <li>Tulu <span class="lang-desc">(Native)</span></li>
+                    <li>Kannada <span class="lang-desc">(Learning)</span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Football</li>
+                    <li>Cricket</li>
+                    <li>Music</li>
+                </ul>
+            </div><!--//interests-->
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">General</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>DOB: 14<sup>th</sup> Nov, 1988 </li>
+                    <li>Nationality: Indian</li>
+                    <li>Sex: Male</li>
+                    <li>Marital Status: Unmarried</li>
+                </ul>
+            </div>
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+                <div class="summary">
+                    <p>Software Engineer with more than 4 years experience, specializing in back end development. Experienced with all stages of the development cycle for dynamic web projects. Look at myself as a Full Stack Developer, well-versed in numerous programming languages and also as time passes wish to be familiar with devops roles.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Software Engineer</h3>
+                            <div class="time">Mar 2017 - Present</div>
+                        </div><!--//upper-row-->
+                        <div class="company">MobiCom, Bengaluru</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>MobiCom is a demographic driven experiences and commerce solution provider, driving transactions, building an ecosystem around private club members, golfers and affluent credit card members worldwide.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Software Engineer</h3>
+                            <div class="time">Jan 2016 - Mar 2017</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Vserv, Mumbai</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Vserv a Mobile Advertising and Commerce Company, is the smart data platform for mobile marketing in India and SEA.</p>                    </div><!--//details-->
+                </div><!--//item-->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Software Developer</h3>
+                            <div class="time">Jan 2014 - Jan 2016</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Medisurge, Mumbai</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Medisurge Technologies Pvt Ltd is a digital health company with the objective of providing a single destination to users for all health care needs. Medisurge Technologies also markets its services as Top Doctors Online (TDO).</p>                    </div><!--//details-->
+                </div><!--//item-->
+            </section><!--//section-->
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Top Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">PHP</h3><h3 class="level-title" style="width: 10%">8/10</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%" style="width: 80%;">
+                            </div>
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">Javascript &amp; jQuery</h3><h3 class="level-title" style="width: 10%">7.5/10</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="75%" style="width: 75%;">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">MySQL</h3><h3 class="level-title" style="width: 10%">7/10</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%" style="width: 70%;">
+                            </div>
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3><h3 class="level-title" style="width: 10%">7/10</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%" style="width: 70%;">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">GIT</h3><h3 class="level-title" style="width: 10%">9/10</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="90%" style="width: 90%;">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                </div>  
+            </section><!--//skills-section-->
+
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills Set</h2>
+                <!-- <div class="intro">
+                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                </div> --><!--//intro-->
+                <div class="item">
+                    <span class="skills-title company">Main</span>: <span class="project-tagline">PHP, Git, JavaScript, AJAX, MySQL, HTML5, CSS</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Backend Frameworks</span>: <span class="project-tagline">Laravel, Yii, Slim, CodeIgniter</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Javascript Frameworks</span>:  
+                    <span class="project-tagline">Jquery<!-- , AngularJS, ReactJS --></span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">PHP Frontend Frameworks / Templating Engines</span>:  
+                    <span class="project-tagline">Blade, Twig</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Payment Gateways</span>:  
+                    <span class="project-tagline">PayPal, CCAvenue, Wirecard</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Web Services</span>:  
+                    <span class="project-tagline">SOAP, WSDL, REST</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Caching Techniques</span>:  
+                    <span class="project-tagline">APC, Memcache, XCache</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Operating System</span>:  
+                    <span class="project-tagline">Windows, Linux (Ubuntu)</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Development Web Server</span>:  
+                    <span class="project-tagline">WAMP, XAMPP, LAMP, Vagrant</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Web Hosting</span>:  
+                    <span class="project-tagline">Apache, Nginx</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Version Control System</span>:  
+                    <span class="project-tagline">Git</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Methodologies</span>:  
+                    <span class="project-tagline">Agile Scrum</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">Others</span>:
+                    <span class="project-tagline">Bootstrap, JSON, XML, .htaccess, W3C Markup Validation</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="skills-title company">IDE / Editor / Tools</span>:  
+                    <span class="project-tagline">diffuse, Csv, Excel, EmEditor, Gearman, Meld, NetBeans, Nano, Notepad++, Postman, Word, Sublime Text, Vim</span>
+                </div><!--//item-->
+            </section><!--//section-->
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <div class="company">MobiCom Technologies Pvt Ltd, Bengaluru</div>
+                <div class="item">
+                    <span class="project-title"><a href="http://onecardnet.com/" target="_blank">OneCardNet</a></span>: <span class="project-tagline">OneCardNet provides Bank card holders a platform to shop, dine, etc with different offers</span>
+                    <ul>
+                        <li>Designed from "scratch".</li>
+                        <li>Maitainance &amp; Optimistation of the Web and Apis</li>
+                        <li>Monitoring technical aspects of OneCardNet</li>
+                    </ul>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://www.greengolf.biz/" target="_blank">Green Golf</a></span>: <span class="project-tagline">A responsive website template designed to book time slots by Golfers choosing different Golf Courses across the world.</span>
+                    <ul>
+                        <li>Setup of the Laravel project across different environments</li>
+                        <li>Maitainance &amp; Optimistation of the Web and Apis</li>
+                        <li>Payment Gateway (Wirecard)</li>
+                        <li>Monitoring technical aspects of Greengolf</li>
+                    </ul>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="http://oneclubnet.com/" target="_blank">OneClubNet</a></span>: 
+                    <span class="project-tagline">OneClubNet enables private clubs and their members worldwide to engage, network, create new experiences and transact, driving revenue for the clubs while delivering value for members.</span>
+                    <ul>
+                        <li>Maitainance &amp; Optimistation of the CMS and Apis</li>
+                    </ul>
+                </div><!--//item-->
+                <div class="item">
+                     <span class="project-title"><a href="">Others</a></span>: <!--  - <span class="project-tagline">A responsive website template designed to book time slots by Golfers choosing different Golf Courses across the world.</span> -->
+                    <ul>
+                        <li>Set GIT process across all verticals</li>
+                        <li>Conducting PHP, MySQL Interviews</li>
+                    </ul>
+                </div>
+                <br/>
+                <div class="company">Vserv Digital Services Pvt Ltd, Mumbai</div>
+                <div class="item">
+                    <span class="project-title"><a href="https://www.vserv.com/" target="_blank">RTB</a></span>: <span class="project-tagline">Real Time Bidding is one of the verticals of VSERV where advertising inventory is bought and sold on a per-impression basis, via programmatic instantaneous auction, similar to financial markets.</span>
+                    <ul>
+                        <li>Integration setup with Real Time Bidding (RTB) Partners.</li>
+                        <li>Modifications, Maintenance, Optimisation of Applications &amp; Websites.</li>
+                        <li>Implement Yii Apc Caching.</li>
+                        <li>Scrapping Sites.</li>
+                    </ul>
+                </div><!--//item-->
+                <br/>
+                <div class="company">Medisurge Technologies Pvt Ltd, Mumbai</div>
+                <div class="item">
+                    <span class="project-title"><a href="" target="_blank">Telcom</a></span>: <span class="project-tagline">Medisurge provides health content and services (VAS) to Telcoms.</span>
+                    <ul>
+                        <li>Manage Telcom Activities &amp; Developers Team</li>
+                        <li>Billing integration setup with Telecommunications Vodafone, Airtel, Idea (in India), Etisalat, du (in UAE)</li>
+                        <li>WURFL (Mobile Device Detection) Integration</li>
+                        <li>Payment Gateway (CCAvenue, PayPal)</li>
+                        <li>S2S Integration setup with Advertising Networks i.e. Kimia, Tyroo, Mobusi, Inmobi, Mobvista, Avazu, Yeahmobi, etc</li>
+                        <li>Managing Links. Mapping and tracking of links (.htaccess)</li>
+                        <li>Automated XML generation application - To display content on Vodafone Mobile Site.</li>
+                        <li>Optimsation of existing product.</li>
+                        <li>Telcom Reports Application</li>
+                    </ul>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="http://www.topdoctorsonline.com/" target="_blank">TDO</a></span>: <span class="project-tagline">Top Doctors Online aims to provide 3 key constituents of health care needs – Information (Content), Doctor Consultation and access to key health services at a single destination.</span>
+                    <ul>
+                        <li>Maintenance of Website.</li>
+                        <li>Integrate Google Maps API.</li>
+                        <br/>
+                    </ul>
+                </div><!--//item-->
+                <div class="item">
+                     <span class="project-title"><a href="">Others</a></span>: <!--  - <span class="project-tagline">A responsive website template designed to book time slots by Golfers choosing different Golf Courses across the world.</span> -->
+                    <ul>
+                        <li>Conducting PHP, MySQL Interviews</li>
+                    </ul>
+                </div>
+                <br/>
+                <div class="company">Freelancing</div>
+                <div class="item">
+                    <span class="project-title"><a href="http://www.upwork.com/o/profiles/users/_~01cdb59c6d8c07eea4/">Upwork</a></span>: <span class="project-tagline">A global freelancing platform where businesses and independent professionals connect and collaborate remotely.</span>
+                    <ul>
+                        <li>Server Mangement Application: Customers, Servers, Server online offline updates.</li>
+                        <li>Staff Mangement Application: Login – logout app, Attendance system, Salary calci, Individual Work, etc.</li>
+                        <li>Integrate Zopim livechat.</li>
+                        <li>W3C Validation of Web pages.</li>
+                    </ul>
+                </div><!--//item-->
+            </section><!--//section-->
+        </div><!--//main-body-->
+    </div>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- <script type="text/javascript" src="js/main.js"></script> -->
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    /*======= Skillset *=======*/
+    // $(window).on('load', function() {
+        $('.level-bar-inner').css('width', '0');
+        // window.location.reload(true);
+        $('.level-bar-inner').each(function() {
+            var itemWidth = $(this).data('level');
+            console.log(itemWidth);
+            $(this).animate({
+                width: itemWidth
+            }, 800);
+        });
+    // });
+});
+</script>
+</body>
+</html>
