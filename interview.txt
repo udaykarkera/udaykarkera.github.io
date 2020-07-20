@@ -1,0 +1,98 @@
+why bes fit
+
+line managed team
+
+
+-----------------
+http://spacebug.com/10_key_software_architectural_concepts/
+https://www.cs.unb.ca/~wdu/cs6075w10/sa2.htm
+Cost
+Software Crisis
+Advantages disadvantages of a technology
+
+----------------------------------------------
+
+Questions
+why lumen/slim
+Azure vs aws
+Relation between oauth an jwt
+why so so database
+Reorder skill set in resume
+----------------------------------------------
+
+Add ons
+
+----------------------------------------------
+
+I have tried to keep it simple.
+You can have a few add ons for some specific activity.
+Discussed in next slides.
+
+
+Avado
+React, TypeScript
+php - Laravel/Symfony, Lumen/slim
+
+Database
+    Postgres, MySql
+
+Git, linux, ubuntu, docker
+Ci/cd, azure, aws
+
+
+What we can do?
+Login via Facebook, Google
+Laravel caching Memcahe, Redis
+
+
+What I have done in past?
+Yii Caching Apc
+Git
+Http Auth
+
+What I have contributed until today?
+Restful Doc
+KS on Security
+KS on GIT
+Continous support on GIT
+
+Automating PSR - Phpstorm or via GIT (Approval pending)
+
+KS on Scrum Master
+Achieved Scrum Master Certification with 95%
+
+I have been looking for opportunities in architectural role in conjuction with my programming practises.
+
+user > frontend > server > database
+
+frontend 
+
+Web caches come in many forms: within one’s web browser, through content delivery networks (CDNs), by internet service providers (ISPs) utilizing DNS caching, and within web platforms through proxy caching and database caching, to name a few
+
+Ideas that help architecture
+Sharding
+Caching
+Indexing
+Load Balancing
+Container Orchestration
+Geographic location
+
+Kubernetes
+    Pods, cluster
+docker
+Cicd
+Http caching, Browser caches
+Redis cache
+
+Other technologies - traefik, Memcahe, ??
+Gaurav sen videos - architectural items
+
+production OS ?? fedeora, cent os?
+
+How you drive the presentation
+
+JS frameworks
+https://towardsdatascience.com/top-10-javascript-frameworks-to-learn-in-2020-a0b83ed3211b
+
+Elasticsearch
+Egs Application Performance Management
